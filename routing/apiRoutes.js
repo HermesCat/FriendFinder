@@ -1,9 +1,9 @@
-var tables = require('../app/data/friend.js');
+var friends = require('../app/data/friend.js');
 
 module.exports = function(app) {
 
     app.get('/api/friends', function(req, res) {
-    res.json(tables);
+    res.json(friends);
     });
 
 
@@ -30,7 +30,7 @@ module.exports = function(app) {
       calcDifference = 0;
 
       //now do a nested loop through the other users scores
-      for (var s = 0; s < friends.length; s++) {
+      for (var s = 0; s < friends[i].length; s++) {
         //calculating differences between the scores using the math.abs to change negatives to positives
         calcDifference += Math.ads(parseInt(userScore[s]) - parseInt(friends[i].scores[s]));
 

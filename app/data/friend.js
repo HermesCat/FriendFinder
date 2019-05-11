@@ -1,4 +1,4 @@
-var tables = [
+var friends = [
     {
         name:"Ahmed",
         photo:"https://www2.isye.gatech.edu/people/faculty/Shabbir_Ahmed/Shabbir-Ahmed-2013-d.jpg",
@@ -33,4 +33,4 @@ var tables = [
       }
 ];
 
-module.exports = tables;
+module.exports = friends;

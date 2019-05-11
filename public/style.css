@@ -2,7 +2,7 @@ header {
     margin: 0;
     padding: 50px;
     background: #d5f4e6;
-    border-bottom: 15px solid #618685;;
+    border-bottom: 15px solid #618685;
 
 }
 
@@ -132,4 +132,10 @@ footer {
 
 h5 {
     font-size: 35px;
+}
+
+.modal-header {
+    padding: 35px;
+    background: #d5f4e6;
+    border-bottom: 15px solid #618685; 
 }
