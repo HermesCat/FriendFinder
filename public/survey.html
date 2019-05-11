@@ -1,0 +1,303 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <title>Friend Finder</title>
+  </head>
+  <body>
+  
+        <header>
+            <div class= "row">
+            <div class = "col-lg-8">
+                <h1><span id="titleHighlight">Friend</span>Finder</h1>
+                <p>"An easier way to find friends."</p>
+            </div>
+            <div class = "col-lg-4" id ="nav">
+                <ul class="nav justify-content-end">
+                        <li class="nav-item">
+                          <a class="nav-link active" href="./home.html">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">SURVEY</a>
+                        </li>
+                      </ul>
+            </div>
+        </div>
+        </header>
+    <div class="container-fluid">
+      
+  <div class="container">
+    <div class = "col-6-md" id="surveyCard">
+      <div class="card">
+        <h5 class="card-header">Survey</h5>
+        <div class="card-body">
+          <h6 class="card-title">Please fill out the form below.</h6>
+        
+          <input class="form-control" type="text" placeholder="Name (required)">
+          <input class="form-control" type="text" placeholder="Picture URL (required)">
+  <!-- ...............These are the questions with selectors (1-5).................................................................... -->
+  <p>1.) How interested are you in finding a life partner? (1 not serious/ 5 very serious)</p>
+        <div class= "selector">
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="Question1" id="inlineRadio1" value="1">
+            <label class="form-check-label" for="inlineRadio1">1</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="Question1" id="inlineRadio2" value="2">
+            <label class="form-check-label" for="inlineRadio2">2</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="Question1" id="inlineRadio3" value="3">
+            <label class="form-check-label" for="inlineRadio3">3</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="Question1" id="inlineRadio4" value="4">
+            <label class="form-check-label" for="inlineRadio3">4</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="Question1" id="inlineRadio5" value="5">
+            <label class="form-check-label" for="inlineRadio3">5</label>
+          </div>
+        </div>
+    <p>2.) Are you a generally pessimistic or optimistic person? (1 very pessimistic/5 very optimistic)</p>
+        <div class= "selector">
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="Question2" id="inlineRadio1" value="1">
+            <label class="form-check-label" for="inlineRadio1">1</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="Question2" id="inlineRadio2" value="2">
+            <label class="form-check-label" for="inlineRadio2">2</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="Question2" id="inlineRadio3" value="3">
+            <label class="form-check-label" for="inlineRadio3">3</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="Question2" id="inlineRadio4" value="4">
+            <label class="form-check-label" for="inlineRadio3">4</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="Question2" id="inlineRadio5" value="5">
+            <label class="form-check-label" for="inlineRadio3">5</label>
+          </div>
+        </div>
+
+        <p>3.) Work is more imore important than free time. (1 don't agree/ 5 agree very much)</p>
+        <div class= "selector">
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="Question3" id="inlineRadio1" value="1">
+            <label class="form-check-label" for="inlineRadio1">1</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="Question3" id="inlineRadio2" value="2">
+            <label class="form-check-label" for="inlineRadio2">2</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="Question3" id="inlineRadio3" value="3">
+            <label class="form-check-label" for="inlineRadio3">3</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="Question3" id="inlineRadio4" value="4">
+            <label class="form-check-label" for="inlineRadio3">4</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="Question3" id="inlineRadio5" value="5">
+            <label class="form-check-label" for="inlineRadio3">5</label>
+          </div>
+        </div>
+
+        <p>4.) You like going on vacation every year. (1 don't agree/ 5 agree very much)</p>
+        <div class= "selector">
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="Question4" id="inlineRadio1" value="1">
+            <label class="form-check-label" for="inlineRadio1">1</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="Question4" id="inlineRadio2" value="2">
+            <label class="form-check-label" for="inlineRadio2">2</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="Question4" id="inlineRadio3" value="3">
+            <label class="form-check-label" for="inlineRadio3">3</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="Question4" id="inlineRadio4" value="4">
+            <label class="form-check-label" for="inlineRadio3">4</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="Question4" id="inlineRadio5" value="5">
+            <label class="form-check-label" for="inlineRadio3">5</label>
+          </div>
+        </div>
+
+<p>5.) You are very frugal with money. (1 don't agree/ 5 agree very much)</p>
+        <div class= "selector">
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="Question5" id="inlineRadio1" value="1">
+            <label class="form-check-label" for="inlineRadio1">1</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="Question5" id="inlineRadio2" value="2">
+            <label class="form-check-label" for="inlineRadio2">2</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="Question5" id="inlineRadio3" value="3">
+            <label class="form-check-label" for="inlineRadio3">3</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="Question5" id="inlineRadio4" value="4">
+            <label class="form-check-label" for="inlineRadio3">4</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="Question5" id="inlineRadio5" value="5">
+            <label class="form-check-label" for="inlineRadio3">5</label>
+          </div>
+        </div>
+
+        <p>6.) You enjoy quiet time over excitemenet. (1 don't agree/ 5 agree very much)</p>
+        <div class= "selector">
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="Question6" id="inlineRadio1" value="1">
+            <label class="form-check-label" for="inlineRadio1">1</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="Question6" id="inlineRadio2" value="2">
+            <label class="form-check-label" for="inlineRadio2">2</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="Question6" id="inlineRadio3" value="3">
+            <label class="form-check-label" for="inlineRadio3">3</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="Question6" id="inlineRadio4" value="4">
+            <label class="form-check-label" for="inlineRadio3">4</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="Question6" id="inlineRadio5" value="5">
+            <label class="form-check-label" for="inlineRadio3">5</label>
+          </div>
+        </div>
+
+        <p>7.) You are more introverted than extroverted. (1 don't agree/ 5 agree very much)</p>
+        <div class= "selector">
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="Question7" id="inlineRadio1" value="1">
+            <label class="form-check-label" for="inlineRadio1">1</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="Question7" id="inlineRadio2" value="2">
+            <label class="form-check-label" for="inlineRadio2">2</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="Question7" id="inlineRadio3" value="3">
+            <label class="form-check-label" for="inlineRadio3">3</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="Question7" id="inlineRadio4" value="4">
+            <label class="form-check-label" for="inlineRadio3">4</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="Question7" id="inlineRadio5" value="5">
+            <label class="form-check-label" for="inlineRadio3">5</label>
+          </div>
+        </div>
+
+        <p>8.) You like maintaining old things rather than buying new ones. (1 don't agree/ 5 agree very much)</p>
+        <div class= "selector">
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="Question8" id="inlineRadio1" value="1">
+            <label class="form-check-label" for="inlineRadio1">1</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="Question8" id="inlineRadio2" value="2">
+            <label class="form-check-label" for="inlineRadio2">2</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="Question8" id="inlineRadio3" value="3">
+            <label class="form-check-label" for="inlineRadio3">3</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="Question8" id="inlineRadio4" value="4">
+            <label class="form-check-label" for="inlineRadio3">4</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="Question8" id="inlineRadio5" value="5">
+            <label class="form-check-label" for="inlineRadio3">5</label>
+          </div>
+        </div>
+
+        <p>9.) You are very particular about the kinds of food you eat. (1 don't agree/ 5 agree very much)</p>
+        <div class= "selector">
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="Question9" id="inlineRadio1" value="1">
+            <label class="form-check-label" for="inlineRadio1">1</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="Question9" id="inlineRadio2" value="2">
+            <label class="form-check-label" for="inlineRadio2">2</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="Question9" id="inlineRadio3" value="3">
+            <label class="form-check-label" for="inlineRadio3">3</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="Question9" id="inlineRadio4" value="4">
+            <label class="form-check-label" for="inlineRadio3">4</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="Question9" id="inlineRadio5" value="5">
+            <label class="form-check-label" for="inlineRadio3">5</label>
+          </div>
+        </div>
+
+        <p>10.) You think looks are not important. (1 don't agree/ 5 agree very much)</p>
+        <div class= "selector">
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="Question10" id="inlineRadio1" value="1">
+            <label class="form-check-label" for="inlineRadio1">1</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="Question10" id="inlineRadio2" value="2">
+            <label class="form-check-label" for="inlineRadio2">2</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="Question10" id="inlineRadio3" value="3">
+            <label class="form-check-label" for="inlineRadio3">3</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="Question10" id="inlineRadio4" value="4">
+            <label class="form-check-label" for="inlineRadio3">4</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="Question10" id="inlineRadio5" value="5">
+            <label class="form-check-label" for="inlineRadio3">5</label>
+          </div>
+        </div>
+
+        <a><button id="submit">Submit</button></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+    <!-- This is the end of the main container -->
+    </div>
+    <footer>
+        <div class = "col-12-md" >
+          <h4>Friend Finder | 2019</h4>
+        </div>
+      </footer>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>

@@ -1,0 +1,135 @@
+header {
+    margin: 0;
+    padding: 50px;
+    background: #d5f4e6;
+    border-bottom: 15px solid #618685;;
+
+}
+
+header p {
+    font-size: 24px;
+}
+
+h1 {
+    font-size: 55px;
+}
+
+body {
+    background: #fefbd8;
+}
+
+#titleHighlight {
+    background: #80ced6;
+    color: #ffffff;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 7px;
+    padding-right: 7px;
+    border-radius: .5ex;
+}
+
+#nav {
+    font-family: 'Lato', sans-serif;
+    font-size: 25px;
+    margin-bottom: 5px;
+    margin-top: 35px;
+    font-weight: bold;
+}
+
+header a {
+    decoration: none;
+    color: #618685
+}
+
+#showcase {
+    background: url(img/photo-1496523720220-b62e33cf3161.jpg) #d5f4e6;
+    padding-bottom: 150px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center 0; 
+
+}
+
+#showcase h2 {
+    font-size: 48px;
+    background-color: hsla(0, 100%, 90%, 0.3);
+    float: left;
+    margin-top: 20px;
+    
+}
+#showcase h3 {
+    background-color: hsla(0, 100%, 90%, 0.3);
+    float: left;
+    margin-top: 20px;
+}
+
+#surveySection {
+    border-top: 15px solid #618685;
+    margin-bottom: 110px;
+   
+}
+
+#surveyColumn {
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+
+
+#surveyForm {
+    text-align: center;
+    padding-left: 35px;
+    padding-right: 35px;
+    min-height: 100px;
+    position: center;
+}
+
+#start {
+    decoration: none;
+    background: #80ced6;
+    color: #ffffff;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 7px;
+    padding-right: 7px;
+    border-radius: .5ex;
+}
+
+footer {
+    background: #618685;
+    color: white;
+    text-align: center;
+    padding: 2px;
+    position: relative;
+    clear: both;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;            /* Footer height */
+    margin-top: 45px;
+}
+
+#submit {
+    decoration: none;
+    background: #80ced6;
+    color: #ffffff;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 7px;
+    padding-right: 7px;
+    border-radius: .5ex;
+    padding: 12px;
+}
+
+.selector{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.form-control {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+h5 {
+    font-size: 35px;
+}
