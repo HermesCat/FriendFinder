@@ -11,16 +11,4 @@ app.get('/survey', function(req, res) {
     res.sendFile(path.join(__dirname, '../public/survey.html'));
   });
 
-//   these will send the css files and the image file
-
-  
-  // app.get('*', function(req, res) {
-  //   res.sendFile(path.join(__dirname, '../public/style.css'));
-  // });
-
-//   app.get('*', function(req, res) {
-//     res.sendFile(path.join(__dirname, '/app/public/img/photo-1496523720220-b62e33cf3161.jpg'));
-//   });
-//   app.use(express.static(__dirname + '/app/public/img/photo-1496523720220-b62e33cf3161.jpg'));
-
 }

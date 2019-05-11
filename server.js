@@ -10,7 +10,7 @@ app.use(express.json());
 app.use(express.static(path.join(__dirname, 'public')));
 
 require("./routing/htmlRoutes")(app);
-// require("./routing/appRoutes")(app);
+require("./routing/apiRoutes")(app);
 
 
 
