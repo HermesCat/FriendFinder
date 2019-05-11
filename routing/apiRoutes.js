@@ -42,19 +42,15 @@ module.exports = function(app) {
 
         }
       }
-
-
     }
 
+    //save user's data after check
+    friends.push(userData);
+    //return best match to user
+    res.json(bestMatch);
 
   });
 
 
 
-  app.delete('/app/clear', function(req, res) {
-    tables.clearTables();
-
-    // Just letting the user know it all worked out okay
-    res.json({ ok: true });
-  });
 };
