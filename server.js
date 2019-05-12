@@ -1,21 +1,20 @@
-var path = require('path');
 var express = require('express');
 
+
+// Initialize the app and create a port
 var app = express();
 var PORT = process.env.PORT || 3000;
 
-// Allows data to be sent to server as JSON
-app.use(express.urlencoded({ extended: true }));
+// Set up body parsing and static middleware
 app.use(express.json());
-app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.urlencoded({ extended: true }));
+app.use(express.static('public'));
 
-require("./routing/htmlRoutes")(app);
-require("./routing/apiRoutes")(app);
+require('./routing/apiRoutes')(app);
+require('./routing/htmlRoutes')(app);
 
 
-
-// Starts the server
+// Start the server on the port
 app.listen(PORT, function() {
-    console.log('App listening on PORT ' + PORT);
-  });
-  
+  console.log('Listening on PORT: ' + PORT);
+});

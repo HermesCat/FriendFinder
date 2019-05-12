@@ -1,7 +1,7 @@
 var friends = [
-    {
+      {
         name:"Ahmed",
-        photo:"https://www2.isye.gatech.edu/people/faculty/Shabbir_Ahmed/Shabbir-Ahmed-2013-d.jpg",
+        photo:"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
         scores:[
             5,
             1,
@@ -17,18 +17,34 @@ var friends = [
       },
       {
         name:"Clair",
-        photo:"https://mindbodygreen-res.cloudinary.com/images/w_767,q_auto:eco,f_auto,fl_lossy/usr/marrastclaire/marra-st-clair.jpg",
+        photo:"https://www.mccannfitzgerald.com/uploads/Claire_McGinn_Senior_Associate_2018_1.jpg",
         scores:[
             1,
-            2,
-            3,
             4,
             2,
+            2,
+            1,
             5,
             4,
-            2,
-            2,
-            5
+            3,
+            1,
+            2
+          ]
+      },
+      {
+        name:"Tom",
+        photo:"https://www.wbkidsgo.com/Portals/4/Images/Content/Characters/Tom%20and%20Jerry/Headshots/TJ_headShot_Tom.png",
+        scores:[
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            4,
+            5,
+            5,
+            2
           ]
       }
 ];

@@ -11,18 +11,16 @@ module.exports = function(app) {
   app.post('/api/friends', function(req, res) {
     var bestMatch = {
         name: "",
-        url: "",
+        photo: "",
         friendDifference: 1000
     };
 
     console.log(req.body);
 
+
     //taking the result from the user survey and parsing the data
     var userData = req.body;
     var userScore = userData.scores;
-
-    console.log(userScore);
-    
     var calcDifference = 0;
 //make a loop that goes through other users 
     for (var i = 0; i < friends.length; i++) {
@@ -30,9 +28,9 @@ module.exports = function(app) {
       calcDifference = 0;
 
       //now do a nested loop through the other users scores
-      for (var s = 0; s < friends[i].length; s++) {
+      for (var s = 0; s < friends[i].scores[s]; s++) {
         //calculating differences between the scores using the math.abs to change negatives to positives
-        calcDifference += Math.ads(parseInt(userScore[s]) - parseInt(friends[i].scores[s]));
+        calcDifference += Math.abs(parseInt(userScore[s]) - parseInt(friends[i].scores[s]));
 
         if (calcDifference <= bestMatch.friendDifference) {
 
